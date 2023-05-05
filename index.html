@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="assets/img/favicon.png">
-
+        <!-- <link rel="shortcut icon" href="" type="assets/img/favicon1.png"> -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon1.png">
         <!--=============== BOXICONS ===============-->
-        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
@@ -16,11 +16,58 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title> Responsive portfolio website Ansel </title>
+        <title> Portfolio </title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Kaustubh</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt' >
+                                </i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bxs-user-pin'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bxs-book-alt' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class='bx bx-universal-access'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bxs-briefcase-alt-2' ></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-mail-send' ></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
             
         </header>
 
@@ -28,55 +75,661 @@
         <main class="main">
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        
+                        <span class="home__greeting">Hello, I am</span>
+                        <h1 class="home__name">Kaustubh M</h1>
+                        <h3 class="home__education"></h3>
+                        <div class="home__background">
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/kaustubh_resume.pdf" class="button button--ghost">
+                                Download Resume
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                </div>
+            
+
+            <div class="home__handle">
+                <img src="assets/img/me3.png" alt="" class="home__img">
+            </div>
+
+            <div class="home__social">
+                <a href="https://in.linkedin.com/in/kaushi00" class="home__social-link">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </a>
+
+                 <a href="https://github.com/Sirczechs-Kaustubh" class="home__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                 <a href="https://petbiotech.net" class="home__social-link">
+                    <i class='bx bxl-dribbble' ></i>
+                </a>
+            </div>
+
+            <a href="#about" class="home__scroll">
+                <i class='bx bxs-mouse-alt home__scroll-icon' ></i>
+                <span class="home__scroll_name">Scroll Down</span>
+            </a>
+        
+
+            </div>
+
+            </div>
+        </div>
             </section>
             
             <!--=============== ABOUT ===============-->
             <section class="about section" id="about">
+                <span class="section__subtitle">About Me</span>
+                <h2 class="section__title">My Story</h2>
+
+                <div class="about__cotainer container grid">
+                <img src="assets/img/me1.jpeg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bxs-award' ></i>
+                            <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle">0-1 year</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt' ></i>
+                            <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle">10+ Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-history' ></i>
+                            <h3 class="about__title">Excellent</h3>
+                                <span class="about__subtitle">in Storytelling</span>
+                        </div>
+                    </div>
+                    <p class="about__description">Hi, I'm a biotechnologist who can also code, design and build awesome websites. I know, it sounds like I'm a unicorn, but I'm real. I love combining my passion for biology with my skills in programming and product development. Whether it's creating a DNA database, a bioinformatics tool, or a sleek portfolio site, I can do it all. And I do it with a smile, because life is too short to be boring. That's my story, and I'm sticking to it.
+</p>
+                    <a href="#contact" class="button">Contact Me</a>
+
+                </div>
+            </div>
                 
             </section>
 
             <!--=============== SKILLS ===============-->
             <section class="skills section" id="skills">
+                <span class="section__subtitle">My Experiences</span>
+                <h2 class="section__title">My Abilities</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Biotechnology</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Tissue Culture</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">SAS & R</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Lab Management</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Genetic Engineering</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Molecular Docking</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Databases</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+<!-- 2nd part of skill section -->
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Information Technology</h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Java & JS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML & CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">MySQL & Sqlite</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">AWS & GoogleCloud</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Data Analytics</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </section>
 
             <!--=============== SERVICES ===============-->
-            <section class="services section">
+            <section class="services section" id="services">
+            	<span class="section__subtitle">My Services</span>
+            	<h2 class="section__title">What I Offer</h2>
+            	<div class="services__container container grid">
+            		<div class="services__card">
+            			<h3 class="services__title">Product<br>Developer</h3>
+
+            		<span class="services__button">
+            			See more <i class="bx bx=right-arrow-alt services__icon"></i>
+            		</span>
+
+            		<div class="services__modal">
+            			<div class="services__modal-content">
+            				<i class="bx bx-x services__modal-close"></i>
+            				<h3 class="services__modal-title">Product Developer
+            				</h3>
+            				<p class="services__modal-description">
+            					Worked as Product developer for a biotechnology company name PetBiotech, which is an Entrepreneurial initiative of Indian Institute of Science. 
+            				</p>
+            				<ul class="services__modal-list">
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Developed the best UI experience.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Created a real time data visualization system.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Reconstructed an effective system for Sample tracking.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Developed an interactive portal for data management.
+            						</p>
+            					</li>
+
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+
+            	<div class="services__card">
+            			<h3 class="services__title">Researcher</h3>
+            			
+            		<span class="services__button">
+            			See more <i class="bx bx=right-arrow-alt services__icon"></i>
+            		</span>
+            		<div class="services__modal">
+            			<div class="services__modal-content">
+            				<i class="bx bx-x services__modal-close"></i>
+            				<h3 class="services__modal-title">Researcher
+            				</h3>
+            				<p class="services__modal-description">
+            					I have experience working as an Assistant Researcher at a cutting-edge laboratory in the Indian Institute of Science (IISc), one of the most prestigious institutes in the country.
+            				</p>
+            				<ul class="services__modal-list">
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Done extensive literature survey on Lumpy Skin Disease Virus
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Conducted Epidemiology studies on Lumpy Skin Disease
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Established the protocols for prevention and control of LSDV outbreak in Rannebennur Taluk.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Gained research knowledge on scaffolds and tissue engineering. 
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							On track to publishing a paper on "Use of Plant Based Scaffolds for Liver Tissue regeneration"
+            						</p>
+            					</li>
+
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+
+            	<div class="services__card">
+            			<h3 class="services__title">Biotechnology <br>Engineer</h3>
+            			
+            		<span class="services__button">
+            			See more <i class="bx bx=right-arrow-alt services__icon"></i>
+            		</span>
+            		<div class="services__modal">
+            			<div class="services__modal-content">
+            				<i class="bx bx-x services__modal-close"></i>
+            				<h3 class="services__modal-title">Biotechnology Engineer
+            				</h3>
+            				<p class="services__modal-description">
+            					As a Biotechnology Engineer, I have secured an 8.2 CGPA. And during this time I had a chance to learn various topics from Quality Assurance, Bioinformatics, and Programming.
+            				</p>
+            				<ul class="services__modal-list">
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Gained knowledge of critical thinking and design of experiment during my thesis. 
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Can perform Statistical and Data analysis on clinical trails data. 
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Acquired knowledge of Animal Cell Culturing.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Can make effective Process Plant Designs.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Learned to design effective Bioreactors and Machine Drawings. 
+            						</p>
+            					</li>
+
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+
+            	<div class="services__card">
+            			<h3 class="services__title">AI/ML<br>Engineer</h3>
+            			
+            		<span class="services__button">
+            			See more <i class="bx bx=right-arrow-alt services__icon"></i>
+            		</span>
+            		<div class="services__modal">
+            			<div class="services__modal-content">
+            				<i class="bx bx-x services__modal-close"></i>
+            				<h3 class="services__modal-title">AI/ML Engineer
+            				</h3>
+            				<p class="services__modal-description">
+            					As a self-motivated enthusiast in the field of AI and ML, I have successfully completed multiple projects, including image classification and the development of prediction algorithms.
+            				</p>
+            				<ul class="services__modal-list">
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Designed a machine learning model to predict active pre cursor molecules in the process of drug discovery.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Developed an Algorithm to detect patients by scanning their chest X-rays.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Developed a basic Image recognition software
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Can effectively deploy these programs on AWS and other Cloud Platforms.
+            						</p>
+            					</li>
+
+            					<li class="services__modal-item">
+            						<i class="bx bx-check services__modal-icon"></i>
+            						<p class="services__modal-info">
+            							Learned prompt engineering for famous applications like ChatGPT, Bard and BingChat.
+            						</p>
+            					</li>
+
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+            </div>
                 
             </section>
 
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
-                
-            </section>
+            	<span class="section__subtitle">My Portfolio</span>
+                <span class="section__subtitle">&</span>
+            	<h2 class="section__title">Certification</h2>
 
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
+            	<div class="work__filters">
+            		<span class="work__item active-work" data-filter="all">All</span>
+            		<span class="work__item" data-filter=".web">Web</span>
+            		<span class="work__item" data-filter=".app">App</span>
+            		<span class="work__item" data-filter=".design">Design</span>
+            		<span class="work__item" data-filter=".certificates">Certificates</span>
+            	</div>
                 
+                <div class="work__container container grid">
+                	<div class="work__card mix web">
+                		<img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                		<h3 class="work__title">Web Design</h3>
+
+                		<a href="https://petbiotech.net/" class="work__button" target="_blank">
+                			Demo 1<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                        <a href="https://anand-choudhary.netlify.app/ " class="work__button" target="_blank">
+                            Demo 2<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                	</div>
+
+                	<div class="work__card mix app">
+                		<img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                		<h3 class="work__title">Web App</h3>
+
+                		<a href="https://watchi.vercel.app/" class="work__button" target="_blank">
+                			Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+                	</div>
+
+                	<div class="work__card mix design">
+                		<img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                		<h3 class="work__title">Brand Design</h3>
+
+                		<a href="https://www.instagram.com/wonandoff/?hl=en" class="work__button" target="_blank">
+                			Demo 1<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                        <a href="https://www.youtube.com/channel/UCbRkV0FhYWLrcgRSxslxkBQ/videos" class="work__button" target="_blank">
+                            Demo 2<i class="bx bx-right-arrow-alt work__icon"></i>
+                        </a>
+                	</div>
+
+                	<div class="work__card mix design">
+                		<img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                		<h3 class="work__title">Content Design</h3>
+
+                		<a href="https://www.instagram.com/a_gloomy_sunday/" class="work__button" target="_blank">
+                			Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+                	</div>
+
+                	<div class="work__card mix certificates">
+                		<!-- <img src="assets/img/work4.jpg" alt="" class="work__img"> -->
+
+                		<h3 class="work__title">Certificates</h3>
+
+                		<a href="https://coursera.org/share/b7da190333bce7510e74d44c24e1c728" class="work__button" target="_blank">
+                			Google’s Professional Certification - 
+                			Data<br>Analytics<br><br>
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                		<a href="https://coursera.org/share/80d0eec2551a45cd9beb91b0c883cef6" class="work__button" target="_blank">
+                			University of Michigan - 
+                			Getting Started with<br>Python<br><br>
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                		<a href="https://coursera.org/share/694d176a339c929f8cff24c75fe2787b" class="work__button" target="_blank">
+                			The Hong Kong University of Science and<br>Technology - 
+                			The Science of Gastronomy<br><br>
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                		<a href="https://coursera.org/share/9813eddc7a27cbd2ac18d02fcb43ce23" class="work__button" target="_blank">
+                			University of Washington - 
+                			Computational<br>Neuroscience<br><br>
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                		<a href="https://drive.google.com/file/d/10sc228oLjs9B_-KbwMdG1Kh1CLx70Lvp/view?usp=share_link" class="work__button" target="_blank">
+                			Indian Institute of Technology Kanpur -<br>Introduction to R Software<br><br>
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                		<a href="https://drive.google.com/file/d/1Akvqv8qnfhtI_jnK53poWMGCJUVhoLLc/view?usp=share_link" class="work__button" target="_blank">
+                			Indian Institute of Technology Kharagpur -<br>Programming In Java
+                			<i class="bx bx-right-arrow-alt work__icon"></i>
+                		</a>
+
+                	</div>
+                </div>
             </section>
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class="bx bx-mail-send contact__card-icon"></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">kaushi00@gmail.com</span>
+                                <a href="mailto:kaushi00@gmail.com" target="_blank" class="contact__button">
+                                    Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                                </a>
+                            </div>
+
+
+                            <div class="contact__card">
+                                <i class="bx bxl-linkedin-square contact__card-icon"></i>
+                                <h3 class="contact__card-title">LinkedIn</h3>
+                                <span class="contact__card-data">M Kaustubh</span>
+                                <a href="https://www.linkedin.com/in/kaushi00/" target="_blank" class="contact__button">
+                                    Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="class__content">
+                        <h3 class="contact__title">Write me your message</h3>
+                        <form action="https://api.web3forms.com/submit" class="contact__form" method="POST">
+                            <input type="hidden" name="access_key" value="418362c3-fb12-4b71-b566-4a9ec688c4a6">
+                             
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" name="name" placeholder="Enter Your Name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">E-Mail</label>
+                                <input type="email" name="email" placeholder="Enter Your E-Mail" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Message</label>
+                                <textarea name="message" id="" cols="30" placeholder="Type in your message" rows="10" class="contact__form-input"></textarea>
+                            </div>
+
+                           <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                            <button type="submit" class="button">Send Message</button>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
                 
             </section>
         </main>
 
         <!--=============== FOOTER ===============-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h5 class="footer__utitle">Remember my name, you'll need it later </h5>
+                <br>
+                <h1 class="footer__title">M Kaustubh</h1>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/kaustubh.anitha/" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kaustubh_hyoudou/" target="_blank" class="footer__social-link">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kaushi00/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169; Sirczechs-Kaustubh. All rights reserved
+                </span>
+            </div>
         </footer>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
+        <script src="assets/js/mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
