@@ -11,6 +11,7 @@ let messageString="IP address:"+responseJson.ip+"\nLocation:"
 +"Lat = "+responseJson.location.lat+"\tLong = "+responseJson.location.lon;
 return messageString
 } )
+.catch(error => console.error(error))
 .then((messageString)=>sendEmail(messageString));
 
 function sendEmail(messageString){
