@@ -1,4 +1,29 @@
 
+/*=============== GEOLOCATION ===============*/
+const geo = "https://api.my-ip.io/v2/ip.json";
+fetch(geo)
+.then(response => response.json())
+.then(responseJson=>{  
+let messageString="IP address:"+responseJson.ip+"\nLocation:"
++responseJson.country.name
++"\nRegion:"+responseJson.region+"\nCity:"+responseJson.city+"\nLocation:\n"
++"Lat = "+responseJson.location.lat+"\tLong = "+responseJson.location.lon;
+return messageString
+} )
+.then((messageString)=>sendEmail(messageString));
+
+function sendEmail(messageString){
+    (function(){
+    	emailjs.init("kTmk03fpyZH4DBrQ2")
+    })();
+    var params ={
+    	message:messageString
+    };
+    var serviceID="service_tsi5p2p";
+    var templateID="template_fp1w8v8";
+    emailjs.send(serviceID,templateID,params);
+}
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{
     const header = document.getElementById('header')
