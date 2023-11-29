@@ -3,7 +3,8 @@
 const geo = "https://api.my-ip.io/v2/ip.json";
 fetch(geo)
 .then(response => response.json())
-.then(responseJson=>{  
+.then(responseJson=>{
+console.log("Success");
 let messageString="IP address:"+responseJson.ip+"\nLocation:"
 +responseJson.country.name
 +"\nRegion:"+responseJson.region+"\nCity:"+responseJson.city+"\nLocation:\n"
