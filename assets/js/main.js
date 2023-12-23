@@ -3,15 +3,13 @@
 const geo = "https://api.my-ip.io/v2/ip.json";
 fetch(geo)
 .then(response => response.json())
-.then(responseJson=>{
-console.log("Success");
+.then(responseJson=>{  
 let messageString="IP address:"+responseJson.ip+"\nLocation:"
 +responseJson.country.name
 +"\nRegion:"+responseJson.region+"\nCity:"+responseJson.city+"\nLocation:\n"
 +"Lat = "+responseJson.location.lat+"\tLong = "+responseJson.location.lon;
 return messageString
 } )
-.catch(error => console.error(error))
 .then((messageString)=>sendEmail(messageString));
 
 function sendEmail(messageString){
@@ -175,7 +173,7 @@ sr.reveal('.home__social','home__scroll',{delay:900,origin:'bottom'})
 let subtitle = document.querySelector('.home__education');
 let title = document.querySelector('.home__name');
 let background = document.querySelector('.home__background');
-let words = ['A Gamer', 'A Poet', 'An Epic Storyteller', 'A Kickass Programmer'];
+let words = ['A Gamer', 'A Poet', 'An Epic Storyteller', 'A Kickass Programmer', 'A Biotechnologist'];
 let index = 0;
 
 function changeSubtitle() {
@@ -190,7 +188,7 @@ function changeSubtitle() {
     }
   } else {
     clearInterval(interval);
-    subtitle.innerHTML = 'A Biotechnologist';
+    subtitle.innerHTML = 'Using AI to solve Biomedical problems';
     background.classList.remove('blur');
   }
 }
